@@ -1,0 +1,265 @@
+*{
+    font-family: "Fraunces", serif;;
+    /* font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; */
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --brown:#5d3123;
+}
+/* .nav-elements{
+    display:flex;
+    justify-content: space-around;
+} */
+#nav-logo{
+    width:100px;
+    height:100px;
+    /* margin-right:200px; */
+}
+
+ul li{
+    font-size: 15px;
+    margin: 0 18px;
+}
+
+li i{
+    color:rgba(128, 128, 128, 0.468);
+}
+
+.btn{
+    background-color: var(--brown);
+    color:white;
+}
+.btn:hover{
+    border: 1px solid  var(--brown);
+}
+
+@media(max-width:992px){
+    /* #nav-logo{
+        display:none;
+    } */
+
+    .nav-item i{
+        display:none;
+    }
+
+
+}
+
+/* .nav-item a{
+
+} */
+
+#main{
+    background-image: url(./images/pexels-pixabay-276651.jpg);
+    height:120vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+    background-color: black;
+}
+
+#welcome{
+    padding-top: 9%;
+    padding-left:5%;
+    
+}
+
+#welcome h4{
+    font-size:3vw;
+    margin-bottom: 30px;
+}
+
+#welcome h1{
+    font-size: 6.25vw;
+    font-weight: 900;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.379);
+    height:120vh;
+}
+
+@media(max-width:600px){
+    #welcome h4{
+        font-size:15px;
+    }
+
+    #welcome h1{
+        font-size:50px;
+    }
+}
+#work{
+    background-image: url("https://wallpapers.com/images/hd/light-brown-background-v2zzyitjem941bsf.jpg");
+    padding-top:8%;
+    
+}
+#work h1{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+div .view-btn{
+    border-color: #5d3123;
+    background-color: transparent;
+    color:#5d3123;
+}
+div .view-btn:hover{
+    background-color: #5d3123;
+    color:white;
+}
+.card-img-top{
+    position: relative;
+}
+
+.black-card{
+    width: 100%;
+    height:401px;
+    background-color: rgba(0, 0, 0, 0.094);
+    position:absolute;
+}
+
+#about{
+   width:100%;
+   border:1px solid black;
+}
+
+.about-row{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gWeopt79f5vLEj4uMF8xWXjBGDh4XMRIbQ&s");
+    background-size: cover;
+    /* height:80vh; */
+    width: 100%;
+   
+}
+#hr-line{
+    height:5px;
+    width:30%;
+    background-color: #5d3123;
+}
+.border-img{
+    position:relative;
+    width:100%;
+    height:50vh;
+    margin-top: 13.5%;
+}
+
+.border-img div{
+    width:90%;
+    height: 50vh;
+    background-color: transparent;
+    border:5px solid var(--brown);
+}
+
+.border-img img{
+    width:90%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:6vw;
+    top:4.5vw;
+}
+
+.about-content{
+    margin-top: 8%;
+}
+.col-5 p{
+    text-align: justify ;
+ 
+}
+
+.col-5 h1{
+    font-weight: 600;
+}
+.about-btn{
+    border-radius: 0;
+    transition:all 0.25s ease-in-out;
+}
+.about-btn:hover{
+border-radius: 5px;
+}
+
+.gallery-1{
+    height:fit-content;
+}
+
+/* .gallery .row{
+    height:100%;
+} */
+
+.projGDiv1{
+    position: relative;
+    height:100%;
+    width:100%;
+}
+
+.projGDiv1 img{
+    height:100%;
+    /* border: 5px solid red; */
+}
+.projGDiv2{
+    width:55%;
+    height:10%;
+    background-color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    position:absolute;
+    bottom:0px;   
+}
+ .projGDiv2 h1{
+    font-size:20px;
+ }
+
+ .projGDiv3{
+    width:60%;
+    height:15%;
+    background-color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    position:absolute;
+    bottom:0px;  
+
+
+    /* & h1{
+        font-size:20px; 
+    } */
+ }
+
+ .walnut{
+    padding: 35px ;
+ }
+
+ .carousel{
+    height:700px;
+ }
+
+ .carousel-inner,.carousel-item, .carousel-item>img{
+ height:100%;
+ }
+
+ /* .inside-row{
+    width: fit-content;
+    overflow: hidden;
+ } */
+
+ .card{
+    box-sizing: border-box;
+ }
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer p{
+    text-align: justify;
+}
+
